@@ -1,0 +1,614 @@
+.navBar {
+  background: #272525;
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  position: absolute;
+  left: 2rem;
+}
+.icons p {
+  font-size: 1.5rem;
+  color: rgb(129, 125, 125);
+}
+.buttons {
+  position: absolute;
+  right: 1rem;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.buttons button {
+  background: #8ec63f;
+  height: 1.3rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button p {
+  font-size: 0.5rem;
+  font-weight: 900;
+}
+.NUM {
+  display: flex;
+  /* flex-direction: row; */
+  position: absolute;
+  right: 6rem;
+  color: rgb(221, 217, 217);
+  align-items: baseline;
+}
+.NUM i {
+  color: #8ec63f;
+  font-size: 0.8rem;
+}
+.NUM p {
+  font-size: 0.6rem;
+}
+
+.navBar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+.img1 img {
+  height: 3.3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 0.938rem;
+  font-family: Arial, sans-serif;
+}
+.divider {
+  border: none;
+  border-top: 0.188rem solid #666;
+  width: 99%;
+  margin: 0px auto;
+  border-radius: 6.25rem;
+  opacity: 0.5;
+}
+nav a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  padding-top: 1.5rem;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #8ec63f;
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: #8ec63f;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+/* .skills{
+display: flex;
+align-items:center;
+justify-content: space-around;
+margin-left: 20rem;
+padding-top: 1.4rem;
+}
+.skills ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    /* align-items:end ; */
+
+/* }
+.skills li{
+    padding-left: 0.6rem;
+    font-weight: 500;
+font-family: Arial, Helvetica, sans-serif;   
+}  */
+.imgSec {
+  height: 50vh;
+  background-image: url(White\ and\ Green\ Water\ Color\ Welcome\ January\ Card_20241016_164001_0000.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.imgSec h1 {
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+.icon-section i {
+  font-size: 1.5rem;
+}
+.imgSec p {
+  width: 40rem;
+  text-align: center;
+  padding-left: 20rem;
+}
+.readmore button {
+  background-color: #fdbb18;
+  border-radius: 0.3rem;
+}
+.box4 {
+  background: ffffff;
+  height: 55vh;
+  width: 100%;
+  align-items: center;
+}
+.content {
+  text-align: center;
+}
+.para {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.icon-box {
+  text-align: center;
+  width: 150px;
+}
+
+.icon-circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px auto;
+}
+.title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+}
+
+.icon-circle i {
+  color: #8ec63f;
+}
+.box5 {
+  height: 60vh;
+  background-image: url(WhatsApp\ Image\ 2024-10-16\ at\ 14.40.38_d116099c.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box5 h1 {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.box5 p {
+  width: 45%;
+}
+.box4 p {
+  font-weight: lighter;
+  color: #666;
+}
+.box6 p {
+  font-weight: lighter;
+  width: 50%;
+  padding-left: 25%;
+  text-align: center;
+  color: #666;
+}
+.box4-p {
+  padding-left: 2rem;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.service-card {
+  width: 20%;
+  height: 12rem;
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  background-color: #f0a500;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+}
+
+.star {
+  color: red;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+.read-more {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.box7 {
+  background: #212121;
+  height: 90vh;
+}
+.box7 h1 {
+  padding-top: 2rem;
+}
+.box7-p {
+  display: flex;
+  justify-content: center;
+}
+.box7 p {
+  font-weight: lighter;
+  color: #ebe1e1;
+  font-size: small;
+  width: 50%;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+.portfolio-card {
+  font-size: 15px;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.portfolio-card:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #007bff; /* Change this color as needed */
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust distance from text */
+  transition: width 0.3s ease;
+}
+.logos {
+  background-image: url(WhatsApp\ Image\ 2024-10-16\ at\ 16.30.59_42f80a09.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 19rem;
+  width: 80%;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.box8-p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.box8-p p {
+  width: 50%;
+}
+/* Main Circle */
+.main-circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 50px auto;
+}
+
+/* Small Circle at the Top */
+.small-circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #f0a500;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Icon Style */
+/* .icon {
+  font-size: 30px;
+  color: #666;
+  margin: 10px;
+} */
+.circlebox {
+  width: 16%;
+  height: 1rem;
+  text-align: center;
+}
+.circle {
+  height: 100%;
+  width: 15.5%;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 11rem;
+}
+
+.plus {
+  position: relative;
+  padding-bottom: 0.8rem;
+  width: 75%;
+  height: 75%;
+}
+
+.horizontal-line,
+.vertical-line {
+  position: absolute;
+  background-color: #666;
+}
+
+.horizontal-line {
+  top: 50%;
+  left: 12.5%;
+  width: 75%;
+  height: 0.5px;
+}
+
+.vertical-line {
+  top: 12.5%;
+  left: 50%;
+  width: 1px;
+  height: 90%;
+}
+.box9-circle {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+.box9-cont {
+  width: 50%;
+}
+.progress {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.circle-wrap {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.circle .mask,
+.circle .fill {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+}
+
+.circle .inside-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 120px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+}
+
+/* Rotating the fill for percentage */
+.orange .circle .mask.full .fill {
+  transform: rotate(162deg); /* 45% progress */
+  background-color: #f39c12;
+}
+
+.red .circle .mask.full .fill {
+  transform: rotate(216deg); /* 60% progress */
+  background-color: #e74c3c;
+}
+
+.green .circle .mask.full .fill {
+  transform: rotate(270deg); /* 75% progress */
+  background-color: #27ae60;
+}
+
+.black .circle .mask.full .fill {
+  transform: rotate(288deg); /* 80% progress */
+  background-color: #2c3e50;
+}
+
+.black .circle .mask.half .fill {
+  background-color: #2c3e50;
+}
+.box11 {
+  background-color: #8ec63f;
+  height: 45vh;
+}
+.box12-icon i {
+  color: #4e7616;
+  padding-right: 0.5rem;
+}
+.box12-icon p {
+  width: 80%;
+}
+.box12-icon {
+  display: flex;
+  justify-content: center;
+}
+.box13 {
+  background-image: url(home-banner-map.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box14 {
+  display: flex;
+}
+/* .box14-img{
+  padding-top: 3rem;
+  background-image: url(images-removebg-preview.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+footer {
+  background-color: #6ca342;
+  padding: 40px 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.box14 p {
+  color: white;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footer-column {
+  width: 22%;
+}
+
+.logo h2 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo p {
+  margin: 10px 0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.footer-column p {
+  margin: 8px 0;
+}
+
+.footer-column i {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
